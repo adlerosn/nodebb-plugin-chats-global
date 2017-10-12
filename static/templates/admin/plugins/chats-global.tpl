@@ -3,17 +3,16 @@
 		<div class="col-sm-2 col-xs-12 settings-header">General</div>
 		<div class="col-sm-10 col-xs-12">
 			<p class="lead">
-				Adjust these settings. You can then retrieve these settings in code via:
-				<code>meta.settings.get('chats-global');</code>
+				Adjust here how your site-wide chat will display for users.
 			</p>
 			<div class="form-group">
-				<label for="setting-1">Setting 1</label>
-				<input type="text" id="setting-1" name="setting-1" title="Setting 1" class="form-control" placeholder="Setting 1">
+				<label for="chatname">Chat Name</label>
+				<input type="text" id="chatname" name="chatname" title="Chat Name" class="form-control" maxlength="60" placeholder="Site-wide Conversation">
 			</div>
-			<div class="form-group">
-				<label for="setting-2">Setting 2</label>
-				<input type="text" id="setting-2" name="setting-2" title="Setting 2" class="form-control" placeholder="Setting 2">
-			</div>
+			<!-- <div class="form-group"> -->
+				<!-- <label for="image">Image URL</label> -->
+				<!-- <input type="text" id="image" name="image" title="Image URL" class="form-control" placeholder="None?"> -->
+			<!-- </div> -->
 		</div>
 	</div>
 </form>
