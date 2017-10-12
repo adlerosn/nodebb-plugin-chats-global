@@ -1,10 +1,10 @@
-<form role="form" class="quickstart-settings">
+<form role="form" class="chats-global-settings">
 	<div class="row">
 		<div class="col-sm-2 col-xs-12 settings-header">General</div>
 		<div class="col-sm-10 col-xs-12">
 			<p class="lead">
 				Adjust these settings. You can then retrieve these settings in code via:
-				<code>meta.settings.get('quickstart');</code>
+				<code>meta.settings.get('chats-global');</code>
 			</p>
 			<div class="form-group">
 				<label for="setting-1">Setting 1</label>

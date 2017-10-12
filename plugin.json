@@ -1,14 +1,12 @@
 {
-	"id": "nodebb-plugin-quickstart",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"id": "nodebb-plugin-chats-global",
+	"url": "https://github.com/adlerosn/nodebb-plugin-chats-global",
 	"library": "./library.js",
 	"hooks": [
-		{
-			"hook": "static:app.load", "method": "init"
-		},
-		{
-			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
-		}
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+        { "hook": "filter:messaging.getRecentChats", "method": "getRecentChats" },
+        { "hook": "action:user.create", "method": "createdUser" }
 	],
 	"staticDirs": {
 		"static": "./static"
